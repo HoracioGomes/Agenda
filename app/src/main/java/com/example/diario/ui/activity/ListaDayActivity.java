@@ -22,7 +22,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class ListaDayActivity extends AppCompatActivity {
     private final String TAG = "LOG_MAIN";
     private final DayDAO dao = new DayDAO();
-    private ListaDaysAdapter adapter;
     private final ListaDaysView listDaysView = new ListaDaysView(this);
 
     @Override
