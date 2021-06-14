@@ -10,4 +10,5 @@
     <string name="string_menu_save">Save</string>
     <string name="string_menu_remove">Remove</string>
     <string name="sreing_menu_teste">Teste</string>
+    <string name="descricao_botao_adicionar">Botao para adicionar registro.</string>
 </resources>

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DayDAO {
-    private String TAG = "LOG_DAY_DAO";
+    private final String TAG = "LOG_DAY_DAO";
     private final static List<Day> days = new ArrayList<>();
     private static int idCounter = 1;
 

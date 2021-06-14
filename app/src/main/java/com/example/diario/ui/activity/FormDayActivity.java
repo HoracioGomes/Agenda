@@ -14,7 +14,7 @@ import com.example.diario.dao.DayDAO;
 import com.example.diario.model.Day;
 
 public class FormDayActivity extends AppCompatActivity {
-    private String TAG = "LOG_FORM";
+    private final String TAG = "LOG_FORM";
     private EditText edtDayMonth;
     private EditText edtDayWeek;
     private EditText edtAnnotation;

@@ -13,15 +13,12 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.diario.R;
-import com.example.diario.dao.DayDAO;
 import com.example.diario.model.Day;
 import com.example.diario.ui.ListaDaysView;
-import com.example.diario.ui.adapter.ListaDaysAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ListaDayActivity extends AppCompatActivity {
     private final String TAG = "LOG_MAIN";
-    private final DayDAO dao = new DayDAO();
     private final ListaDaysView listDaysView = new ListaDaysView(this);
 
     @Override

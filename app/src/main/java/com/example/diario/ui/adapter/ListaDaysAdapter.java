@@ -16,7 +16,7 @@ import java.util.List;
 public class ListaDaysAdapter extends BaseAdapter {
     private final Context context;
     @SuppressWarnings("CanBeFinal")
-    private List<Day> days = new ArrayList<>();
+    private final List<Day> days = new ArrayList<>();
 
     public ListaDaysAdapter(Context context) {
         this.context = context;

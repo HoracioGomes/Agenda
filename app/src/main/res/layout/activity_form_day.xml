@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:hint="@string/string_hint_day_annotation"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:importantForAutofill="no" />
 
     </LinearLayout>

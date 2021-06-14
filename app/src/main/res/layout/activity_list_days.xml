@@ -24,7 +24,7 @@
         android:layout_marginBottom="16dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-         />
+        android:contentDescription="@string/descricao_botao_adicionar" />
 
 
 </RelativeLayout>
