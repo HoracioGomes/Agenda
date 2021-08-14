@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/activity_formulario_aluno_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_margin="8dp"
+        android:hint="@string/string_hint_day_month"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="678dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
-        <EditText
-            android:id="@+id/activity_formulario_aluno_nome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:hint="@string/string_hint_day_month"
-            android:inputType="text"
-            android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/activity_formulario_aluno_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/string_hint_day_week"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        app:layout_constraintTop_toBottomOf="@id/activity_formulario_aluno_nome"
+        />
 
-        <EditText
-            android:id="@+id/activity_formulario_aluno_telefone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:hint="@string/string_hint_day_week"
-            android:inputType="text"
-            android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/activity_formulario_aluno_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/string_hint_day_annotation"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_formulario_aluno_telefone"
+        />
 
-        <EditText
-            android:id="@+id/activity_formulario_aluno_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:hint="@string/string_hint_day_annotation"
-            android:inputType="textEmailAddress"
-            android:importantForAutofill="no" />
 
-    </LinearLayout>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
