@@ -48,8 +48,10 @@ public class ListaDaysAdapter extends BaseAdapter {
     private void linkCard(int position, View cardAluno) {
         TextView dayMonth = cardAluno.findViewById(R.id.item_day_month);
         TextView dayWeek = cardAluno.findViewById(R.id.item_day_week);
+        TextView dayAnnotation = cardAluno.findViewById(R.id.item_day_annotation);
         dayMonth.setText(days.get(position).getDayMonth());
         dayWeek.setText(days.get(position).getDayWeek());
+        dayAnnotation.setText(days.get(position).getAnnotation());
     }
 
     private View inflateCard(ViewGroup parent) {
