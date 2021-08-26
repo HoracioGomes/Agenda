@@ -18,7 +18,7 @@
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="17/04/2021" />
+            tools:text="@sample/dias.json/dias/data_dia_mes" />
 
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/item_day_month"
-            tools:text="Sat" />
+            tools:text="@sample/dias.json/dias/dia_semana" />
 
         <TextView
             android:id="@+id/item_day_annotation"
@@ -39,7 +39,7 @@
             android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/item_day_week"
-            tools:text="happy" />
+            tools:text="@sample/dias.json/dias/anotacao" />
 
         <ImageView
             android:id="@+id/image_record_audio"
@@ -47,6 +47,7 @@
             android:layout_height="40dp"
             android:layout_margin="20dp"
             android:src="@drawable/ic_record_audio"
+            android:contentDescription="@string/description_audio_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

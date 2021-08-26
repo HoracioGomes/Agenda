@@ -1,0 +1,19 @@
+{
+  "dias": [
+    {
+      "data_dia_mes": "01/01/2021",
+      "dia_semana": "sat",
+      "anotacao": "happy"
+    },
+    {
+      "data_dia_mes": "02/02/2021",
+      "dia_semana": "sum",
+      "anotacao": "in peace"
+    },
+    {
+      "data_dia_mes": "03/03/2021",
+      "dia_semana": "monday",
+      "anotacao": "sad"
+    }
+  ]
+}
