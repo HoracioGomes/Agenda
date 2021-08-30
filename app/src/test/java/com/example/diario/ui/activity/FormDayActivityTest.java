@@ -10,17 +10,14 @@ import static org.junit.Assert.assertEquals;
 
 public class FormDayActivityTest {
 
-    private Day day;
+    private Day day = new Day();
     private static final String ANNOTATION = "sad";
 
     @Test
     public void checkTypedAnnotationIsEqualsSavedAnnotation() {
 
-        EditText edtAnnotation = null;
 
-        edtAnnotation.setText(ANNOTATION);
-
-        day.setAnnotation(edtAnnotation.getText().toString());
+        day.setAnnotation(ANNOTATION);
 
         assertEquals(ANNOTATION, day.getAnnotation());
 
