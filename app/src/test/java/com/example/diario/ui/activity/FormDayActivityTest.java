@@ -15,11 +15,7 @@ public class FormDayActivityTest {
 
     @Test
     public void checkTypedAnnotationIsEqualsSavedAnnotation() {
-
-
         day.setAnnotation(ANNOTATION);
-
         assertEquals(ANNOTATION, day.getAnnotation());
-
     }
 }

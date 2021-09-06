@@ -8,6 +8,10 @@
     <ListView
         android:id="@+id/activity_list_days_list_days"
         tools:listitem="@layout/item_day"
+        android:layout_marginHorizontal="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:layout_margin="6dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
